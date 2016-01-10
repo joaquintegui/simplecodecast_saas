@@ -27,8 +27,19 @@
 }
 
 .avatar{
+    height: 128px;
+    width: 128px;
     border-radius: 50%;
     -webkit-box-shadow: -7px 4px 5px 0px rgba(50, 50, 50, 0.59);
     -moz-box-shadow:    -7px 4px 5px 0px rgba(50, 50, 50, 0.59);
     box-shadow:         -7px 4px 5px 0px rgba(50, 50, 50, 0.59);
 }
+
+.selected{
+    border: 2px solid black;
+}
+
+.well.white{
+    background-color: white;
+}
+
